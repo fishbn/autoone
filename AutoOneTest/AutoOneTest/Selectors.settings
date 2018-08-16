@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoOneTest" GeneratedClassName="Selectors">
+  <Profiles />
+  <Settings>
+    <Setting Name="firstRegistrationDateFromSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[data-qa-selector='filter-year'] span</Value>
+    </Setting>
+    <Setting Name="firstRegistrationDateFromDropdownSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">select[name='yearRange.min']</Value>
+    </Setting>
+    <Setting Name="firstRegistrationDateFromDropdownOptionsSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">select[name='yearRange.min'] option</Value>
+    </Setting>
+    <Setting Name="sortDropdownSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[data-qa-selector='sort-select'] select[data-qa-selector='select']</Value>
+    </Setting>
+    <Setting Name="sortDropdownOptionsSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[data-qa-selector='sort-select'] select[data-qa-selector='select'] option</Value>
+    </Setting>
+    <Setting Name="totalPricesSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">div[class^='totalPrice']</Value>
+    </Setting>
+    <Setting Name="firstRegistrationDatesSelector" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[data-qa-selector='spec-list'] li:nth-child(1)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
